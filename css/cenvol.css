@@ -1,0 +1,175 @@
+/*initialize*/
+body,div,h1,h2,h3,h4,h5,h6,p,td,tr,form,ul,ol,li,dl,dt,dd,input,button,textarea{margin:0;padding:0}
+table,caption,tr,td,th{border-collapse:collapse;border-spacing:0;margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+fieldset,img{border:none}
+ul,ol,li{list-style:none;vertical-align:bottom}
+a,a:link,a:visited,a:hover,a:active{text-decoration:none}
+.clear{clear:both}
+.clearfix:after{display:block;content:"";clear:both;height:0}
+.clearfix{*zoom:1}
+/*theme*/
+.ui-panel-inner,.ui-content{padding:0}
+.ui-content .ui-listview, .ui-panel-inner > .ui-listview{margin:0}
+.ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li{padding:0}
+.ui-li-has-arrow .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-arrow{padding-right:45px}
+.ui-body-h{background-color: #f7f8f8}
+/*登录加载页*/
+.login{background-color:#2a64b4}
+/*头部*/
+.header{height:45px;width:100%;text-align:center;background:#002f71 url(../images/logo.gif) no-repeat right center}
+.btnNav{height:45px;width:45px;background:#002456 url(../images/btnNav.jpg) no-repeat center center;text-indent:-9999px;display:block;float:left}
+.header h1{font-size:12px;text-indent:-9999px}
+/*侧栏*/
+.sidebar{background-color:#e7e7e7}
+.sidebar .tit{
+	padding-left:25px;
+	height:45px;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#d6d6d6),to(#b9b9b9));
+	background-image:-webkit-linear-gradient(#d6d6d6,#b9b9b9);
+	background-image:-moz-linear-gradient(#d6d6d6,#b9b9b9);
+	background-image:-ms-linear-gradient(#d6d6d6,#b9b9b9);
+	background-image:-o-linear-gradient(#d6d6d6,#b9b9b9);
+	background-image:linear-gradient(#d6d6d6,#b9b9b9);
+	border-bottom:1px solid #a2a1a1;
+}
+.sidebar h3{
+	font:bold 18px/45px "Microsoft YaHei",simsun,Arial,sans-serif;
+	color:#3e3a39;
+	text-shadow:0 1px 0 #fff;
+	background:url(../images/sidebarTitBg.png) no-repeat right center;
+}
+.sidebar li{
+	padding-bottom:2px;
+	background:url(../images/sidebarLiBg.gif) repeat-x left bottom;
+	height:35px;
+}
+.sidebar .current{
+	background:#686f79 url(../images/sidebarLiBg.gif) repeat-x left bottom;
+}
+.sidebar li a{
+	font:12px/35px "Microsoft YaHei",simsun,Arial,sans-serif;
+	color:#3e3a39;
+	display:block;
+	padding-left:55px;
+	background:url(../images/sidebarIco.gif) no-repeat;
+}
+.sidebar li.exit{height:75px;background:none}
+.sidebar a.exit{background-position:25px -625px;height:75px;line-height:75px;color:#013d8c}
+.sidebar .current a{color:#fff}
+.sidebar li .ico1{background-position:25px 7px}
+.sidebar li .ico2{background-position:25px -40px}
+.sidebar li .ico3{background-position:25px -90px}
+.sidebar li .ico4{background-position:25px -140px}
+.sidebar li .ico5{background-position:25px -190px}
+.sidebar li .ico6{background-position:25px -240px}
+.sidebar .current .ico1{background-position:25px -318px}
+.sidebar .current .ico2{background-position:25px -368px}
+.sidebar .current .ico3{background-position:25px -418px}
+.sidebar .current .ico4{background-position:25px -468px}
+.sidebar .current .ico5{background-position:25px -518px}
+.sidebar .current .ico6{background-position:25px -568px}
+/*焦点图*/
+.slide{text-align:center}
+/*首页列表*/
+.homeLIst li{
+	height:50px;
+	width:100%;
+	padding-bottom:2px;
+	background:url(../images/sidebarLiBg.gif) repeat-x left bottom;
+}
+.homeLIst li:active{background-color:#d2d2d2}
+.homeLIst li a{
+	display:inline-block;
+	text-indent:75px;
+	width:100%;
+	height:50px;
+	font:14px/50px "Microsoft YaHei",simsun,Arial,sans-serif;
+	color:#3e3a39;
+	background:url(../images/homeLIstIco.gif) no-repeat;
+}
+.homeLIst li .ico1{background-position:20px 7px}
+.homeLIst li .ico2{background-position:20px -93px}
+.homeLIst li .ico3{background-position:20px -193px}
+.homeLIst li .ico4{background-position:20px -293px}
+.homeLIst li .ico5{background-position:20px -393px}
+.homeLIst li:active .ico1{background-position:20px -693px}
+.homeLIst li:active .ico2{background-position:20px -792px}
+.homeLIst li:active .ico3{background-position:20px -893px}
+.homeLIst li:active .ico4{background-position:20px -992px}
+.homeLIst li:active .ico5{background-position:20px -1093px}
+/*新闻中心*/
+.newsList li{height:50px;padding-left:20px}
+.newsList a{
+	margin-top:8px;
+	font-size:14px;
+	font-weight:600;
+	display:block;
+	padding-right:30px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	color:#2f3e46;
+}
+.newsList span{
+	margin-top:5px;
+	font-size:12px;
+	font-weight:400;
+	display:block;
+}
+.newsTit h1{font:bold 14px/150% "Microsoft YaHei",simsun,Arial,sans-serif;text-align:center;color:#5e5e5e;margin-top:10px}
+.newsTit .info{font-size:12px;line-height:25px;text-align:center;color:#777;margin-bottom:10px;padding-bottom:5px;border-bottom:1px solid #CCC;margin:0 5px}
+.newsContent{height:auto!important;_height:300px;min-height:300px;font:14px/170% "Microsoft YaHei",simsun,Arial,sans-serif;color:#5e5e5e;padding:0 5px;margin-top:10px}
+/*tab标签内容*/
+.tab{
+	border-top:1px solid #aaccfb;
+	border-bottom:1px solid #f7f8f8;
+	background-color:#d2d2d2;
+}
+.tab a{
+	display:inline-block;
+	height:45px;
+	color:#3e3a39;
+	text-align:center;
+	background:#d2d2d2 url(../images/tabLiBg.gif) repeat-y right top;
+	font:bold 14px/45px "Microsoft YaHei",simsun,Arial,sans-serif;
+}
+.tab .last{
+	background-image:none;
+}
+.tab .current{
+	background-color:#bebebe;
+	border-bottom:2px solid #002f71;
+	color:#fff;
+}
+.titH2{
+	font:bold 16px/40px "Microsoft YaHei",simsun,Arial,sans-serif;
+	color:#3e3a39;
+	background:url(../images/sidebarLiBg.gif) repeat-x left bottom;
+	padding:0 10px;
+}
+.tabMain .newsContent p{
+	padding:0 10px;
+}
+.tabMain .newsContent img{
+	margin:10px 0;
+}
+/*案例列表*/
+.caseList{width:auto;margin-top:20px}
+.caseList li{width:auto;margin:0 20px 10px;height:143px}
+.caseList li table{width:100%;height:59px}
+.caseList li .time{-webkit-text-size-adjust:none;font:11px/25px Verdana,"Microsoft YaHei",simsun,Arial,sans-ser;color:#8d8c8c;display:block;text-align:right}
+.caseList li caption{
+	color:#fff;
+	padding-top:5px;
+	height:45px;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#0081a5),to(#085c94));
+	background-image:-webkit-linear-gradient(#0081a5,#085c94);
+	background-image:-moz-linear-gradient(#0081a5,#085c94);
+	background-image:-ms-linear-gradient(#0081a5,#085c94);
+	background-image:-o-linear-gradient(#0081a5,#085c94);
+	background-image:linear-gradient(#0081a5,#085c94);
+}
+.caseList li caption span{display:block;font:12px/20px Verdana,"Microsoft YaHei",simsun,Arial,sans-serif;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.caseList li tr{vertical-align:top}
+.caseList li th,.caseList li td{text-align:center;border:1px solid #e6e6e6;border-collapse:collapse;eight:33px;line-height:33px}

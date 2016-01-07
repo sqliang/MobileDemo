@@ -1,0 +1,78 @@
+/*²à±ßÀ¸*/
+.sidebar{
+    background-color:#e7e7e7;
+}
+.sidebar .tit{
+    padding-left: 25px;
+    height: 45px;
+    /*border-bottom:1px solid #a2a1a1;*/
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#d6d6d6),to(#b9b9b9));
+    background-image:-webkit-linear-gradient(#d6d6d6,#b9b9b9);
+    background-image:-moz-linear-gradient(#d6d6d6,#b9b9b9);
+    background-image:-ms-linear-gradient(#d6d6d6,#b9b9b9);
+    background-image:-o-linear-gradient(#d6d6d6,#b9b9b9);
+    background-image:linear-gradient(#d6d6d6,#b9b9b9);
+}
+.sidebar .tit h3 {
+    color: #3e3a39;
+    text-shadow: 0 1px 0 #fff;
+    font:bold 18px/45px "Microsoft YaHei",simsun,Arial,sans-serif;
+    background:url(../images/sidebarTitBg.png) no-repeat right center;
+    text-align: center;
+}
+.sidebar ul li {
+    padding-bottom: 2px;
+    background: url(../images/sidebarLiBg.gif) repeat-x left bottom;
+    height: 45px;
+}
+.sidebar ul li.current{
+    background: #686f79 url(../images/sidebarLiBg.gif) repeat-x left bottom;
+}
+.sidebar ul li a{
+    font: 16px/35px "Microsoft YaHei",simsun,Arial,sans-serif;
+    color: #3e3a39;
+    display: block;
+    height: 35px;
+    background: url(../images/sidebarIco.gif) no-repeat;
+    text-align: center;
+}
+.sidebar ul li.current a{
+    color: #fff;
+}
+.sidebar li .ico1 {
+    background-position: 25px 7px;
+}
+.sidebar .current .ico1 {
+    background-position: 55px -318px;
+}
+.sidebar ul li .ico2 {
+    background-position: 55px -40px;
+}
+
+.sidebar li .ico3 {
+    background-position: 55px -88px;
+}
+
+.sidebar li .ico4 {
+    background-position: 55px -140px;
+}
+.sidebar li .ico5 {
+    background-position: 55px -190px;
+}
+.sidebar li .ico6 {
+    background-position: 55px -240px;
+}
+.sidebar-foot{
+    height: 45px;
+    width: 238px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #085c94;
+}
+.sidebar-foot .icon-setting{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    background: url("../images/icon_setting.png") no-repeat center center;
+}

@@ -1,0 +1,32 @@
+.home-list{
+    background-color: #F7F8F8;
+}
+.home-list ul li {
+    width: 100%;
+    height: 50px;
+    background: url("../images/sidebarLiBg.gif") repeat-x left bottom;
+    padding-bottom: 2px;
+}
+.home-list ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    color: #3e3a39;
+    background: url("../images/homeLIstIco.gif") no-repeat;
+    padding-left: 76px;
+}
+.home-list ul li .ico1 {
+    background-position: 20px 6px;
+}
+.home-list ul li .ico2 {
+    background-position: 20px -93px;
+}
+.home-list ul li .ico3 {
+    background-position: 20px -195px;
+}
+.home-list ul li .ico4 {
+    background-position: 20px -295px;
+}
+.home-list ul li .ico5 {
+    background-position: 20px -393px;
+}
