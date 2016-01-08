@@ -1,0 +1,35 @@
+.table{
+    width: 95%;
+    margin: 10px auto 20px auto;
+
+}
+.table table{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-top: none;
+    background: #fff;
+
+}
+.table table caption{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    background-color: #065CE9;
+    color: #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 35px;
+    line-height: 35px;
+}
+.table table caption .date{
+    display: inline-block;
+    float: right;
+    margin-right: 11%;
+}
+.table table tr{
+    border-bottom: 1px solid #ddd;
+}
+.table table tr td,.table table tr th{
+    border-right: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}

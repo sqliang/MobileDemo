@@ -1,0 +1,19 @@
+.news .news-title{
+    text-align: center;
+    color: #de7c23;
+    font-weight: 400;
+    margin: 10px auto;
+    font-size: 16px;
+}
+.news-con {
+    width: 80%;
+    margin: 0 auto;
+}
+.news p{
+    text-indent: 2em;
+    word-break: break-all;
+    font-size: 16px;
+}
+.news h3,.news h4,.news h5,.news h6,.news h1,.news h2 {
+    text-align: center;
+}

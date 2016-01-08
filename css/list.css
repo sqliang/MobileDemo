@@ -1,0 +1,12 @@
+.list-title{
+    text-align: center;
+    color: #de7c23;
+    font-weight: 400;
+    margin: 10px auto;
+    font-size: 16px;
+}
+.weui_cells{
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
